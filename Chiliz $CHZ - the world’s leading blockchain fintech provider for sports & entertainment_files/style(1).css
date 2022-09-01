@@ -1,0 +1,82 @@
+@media (min-width: 768px) {
+  .available-positions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 10px auto;
+  }
+}
+
+.available-positions__entry {
+  text-decoration: none;
+  background-color: #f3f3f3;
+  color: #5b5b5b;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  .available-positions__entry {
+    width: calc(33% - 50px);
+  }
+}
+
+.available-positions__icon-wrapper {
+  padding-right: 15px;
+}
+
+.available-positions__icon {
+  width: 70px;
+  height: 70px;
+  max-width: 70px;
+}
+
+.available-positions__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Ropa Sans", "Times New Roman";
+  line-height: 20px;
+}
+
+/*table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center {
+    text-align: center;
+}
+
+.available-jobs-table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 10px auto;
+
+    th, td {
+        padding: 3px 10px !important;
+        border: 1px solid lightgrey;
+    }
+    .job-title {
+        text-align: left;
+    }
+    .location {
+        text-align: center;
+    }
+
+}*/
+/*# sourceMappingURL=style.css.map */
